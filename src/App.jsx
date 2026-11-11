@@ -1,6 +1,6 @@
 
 import React, { useState, useReducer } from "react";;
-
+import About from "./pages/About";
 import './App.css'
 import MenuCategory from './MenuCategory'
 import SearchBar from "./SearchBar";
@@ -78,6 +78,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/dish/:id" element={<ItemDetails />} />
+      <Route path="/about" element={<About />} />
     </Routes>
   )
  
