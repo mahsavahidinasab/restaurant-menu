@@ -13,6 +13,9 @@ export default function MenuCategory({ category, items, onAddToCart }) {
                         price={item.price}
                         description={item.description}
                         onAddToCart={() => onAddToCart(item)}
+
+
+                        
                     />
                 ))}
             </div>
